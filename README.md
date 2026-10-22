@@ -23,7 +23,13 @@ Aplikasi Android sederhana yang menampilkan daftar 20 item (`Item 1` sampai `Ite
 ## Tampilan
 
 <p align="center">
-  <img src="screenshots/modul1.png" alt="Daftar Item 1 sampai Item 20 pada RecyclerView" width="280">
+  <img src="recyle_portrait.jpeg" alt="Daftar Item 1 sampai Item 20 pada RecyclerView" width="280">
+</p>
+
+
+
+<p align="center">
+  <img src="recycle_landscape.jpeg" alt="Daftar Item 1 sampai Item 20 pada RecyclerView" width="580">
 </p>
 
 *Hasil aplikasi saat dijalankan di perangkat: daftar item pada RecyclerView yang di-scroll sampai Item 20.*
@@ -68,7 +74,3 @@ app/src/main/
 3. Tunggu proses Gradle sync selesai.
 4. Pilih emulator atau HP (USB debugging aktif), lalu klik **Run**.
 
-## Catatan
-
-- Nama package pada `ItemsViewModel.kt` disamakan dengan package project (`lat.pam.recyclerviewsample`), sehingga `import` tambahan di `CustomAdapter.kt` dan `MainActivity.kt` tidak diperlukan lagi.
-- Kode komentar dan `import` yang tidak terpakai pada adapter dibersihkan.
